@@ -1,0 +1,129 @@
+#siteContainer{
+	width:1135px;
+	background-color: #afafaf;
+	margin:auto;
+}
+
+#header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height:180px;
+	background-color: #e0e0e0;
+	padding:25px;
+}
+
+#headerLogo{
+	width: 300px; 
+	background-color: #343434;
+
+}
+
+#headerNav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 515px;
+	background-color: #343434;
+
+}
+
+.headerButtons{
+	margin: auto ;
+	height: 110px;
+	width: 110px;
+	background-color: #636363;
+}
+
+#newsSection{
+	padding: 35px;
+
+}
+
+#heroImage{
+	height: 430px;
+	background-color: #636363;
+}
+
+#belowHero{
+	height: 85px;
+	background-color: #8b8b8b;
+
+}
+
+#newsNav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:402px;
+	height: 85px;
+	margin:auto;
+
+}
+
+.newsNavButtons{
+	width:42px;
+	height: 42px;
+	margin:auto;
+	background-color: #343434;
+
+}
+
+#testimonials{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.testimonialBody{
+	display: flex;
+	flex-direction:row;
+	padding:25px;
+	width:45%;
+
+}
+
+.testimonialImg{
+	width:600px;
+	height: 240px;
+	background-color: #636363;
+
+}
+
+.testimonialText{
+	background-color:  #8b8b8b;
+	padding: 20px;
+	width:240px;
+	color: #343434;
+}
+
+#footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 180px;
+	background-color: #343434;
+	padding: 25px
+}
+
+#footerLogo{
+	width: 300px; 
+	background-color: #e0e0e0;
+}
+
+#footerNav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:510px;
+	margin:auto 25px;
+}
+
+.footerNavButtons{
+	width:42px;
+	height: 42px;
+	background-color: #8b8b8b;
+
+}
