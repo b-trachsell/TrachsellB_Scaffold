@@ -36,7 +36,7 @@
 }
 
 #newsSection{
-	padding: 35px;
+	padding: 25px;
 
 }
 
@@ -46,57 +46,45 @@
 }
 
 #belowHero{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	height: 85px;
 	background-color: #8b8b8b;
+	color: #e0e0e0;
+	padding: 25px;
 
 }
 
-#newsNav{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width:402px;
-	height: 85px;
-	margin:auto;
-
+#headlineText{
+	font-size: 48px;
 }
 
-.newsNavButtons{
-	width:42px;
-	height: 42px;
-	margin:auto;
+#authorCredit{
+	font-size: 24px;
+	text-align: right;
+}
+
+#articleBody{
+	padding: 25px;
+	width:70%;
+	background-color: #8b8b8b;
+	color:  #343434;
+	font-size: 20px;
+}
+
+#adSideBar{
 	background-color: #343434;
-
+	height:auto;
+	width: 22%;
 }
 
-#testimonials{
+#body {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
-
-}
-
-.testimonialBody{
-	display: flex;
-	flex-direction:row;
-	padding:25px;
-	width:45%;
-
-}
-
-.testimonialImg{
-	width:600px;
-	height: 240px;
-	background-color: #636363;
-
-}
-
-.testimonialText{
-	background-color:  #8b8b8b;
-	padding: 20px;
-	width:240px;
-	color: #343434;
+	padding: 25px ;
+	padding-top: 0px;
 }
 
 #footer{
